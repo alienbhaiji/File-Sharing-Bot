@@ -16,13 +16,13 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "21048237"))
+APP_ID = int(os.environ.get("APP_ID", ""))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "da3c558d913251a873a97d30bfd0bbab")
+API_HASH = os.environ.get("API_HASH", "")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002177504895"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
@@ -32,20 +32,20 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
-DB_URI = os.environ.get("DATABASE_URL","mongodb+srv://kxzenbck:kishan@cluster0.7i0jjtb.mongodb.net/")
-
+DB_URI = os.environ.get("DATABASE_URL","")
 
 #force sub channel id, if you want enable force sub
 
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002155313632"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "5"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
-ADMINS=[7266232841,6955808772,1251111009,6955808772]
-#Force sub message
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel to use me @corn_Channels</b>")
+#ADMINS=[7266232841,6955808772,1251111009,6955808772]
+#Force sub messag 
+ADMINS=[]
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel to use me </b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
