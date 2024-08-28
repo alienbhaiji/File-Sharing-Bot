@@ -18,7 +18,7 @@ API_HASH = os.environ.get("API_HASH", "da3c558d913251a873a97d30bfd0bbab")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002177504895"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5728241008"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7077779521"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -34,7 +34,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
-ADMINS=[2080522555,1251111009,6955808772]
+ADMINS=[7077779521,6955808772]
 #Force sub message 
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel @corn_channels</b>")
 
